@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+}
+
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    background-color: var(--body-bg-color);
+}
+#imagemperfil {
+    text-align: center;
+    margin: 8em auto 1em;
+}
+
+#frase {
+    text-align: center;
+    margin: 1em auto 2em;
+    font-weight: 300;
+}
+
+#links{
+    text-align: center;
+    margin: 1em auto;
+    width: 12em;
+    border: 1px solid var(--purple);
+    padding: 1em;
+}
+
+#icones {
+    text-align: center;
+    margin: 2em auto;
+}
